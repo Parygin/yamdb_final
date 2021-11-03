@@ -1,5 +1,5 @@
 FROM python:3.9.6
-LABEL author='parygin' version=1.0.1
+LABEL author='parygin' version=2.0.0
 RUN mkdir /code
 COPY . /code
 WORKDIR /code
