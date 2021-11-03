@@ -1,9 +1,9 @@
-from .user import CustomUser
 from .category import Category
-from .title import Title
+from .comment import Comment
 from .genre import Genre
 from .review import Review
-from .comment import Comment
+from .title import Title
+from .user import CustomUser
 
 __all__ = ['CustomUser', 'Category',
            'Title', 'Genre',
