@@ -12,6 +12,7 @@ class IsStaffOrReadOnly(permissions.BasePermission):
             or request.user.is_staff  # noqa
         ):
             return True
+        return False
 
 
 class IsOwnerOrReadOnly(permissions.IsAuthenticatedOrReadOnly):
@@ -20,3 +21,4 @@ class IsOwnerOrReadOnly(permissions.IsAuthenticatedOrReadOnly):
             or obj.author == request.user or request.user.is_moderator  # noqa
         ):
             return True
+        return False
