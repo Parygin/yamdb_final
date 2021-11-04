@@ -39,18 +39,6 @@ docker-compose exec web python manage.py collectstatic --no-input
 ```
 Проект доступен по адресу: `http://127.0.0.1/admin/`
 
-
-## Тестовые данные
-Репозиторий содержит файл `fixtures.json` с тестовыми данными.
-Их можно загрузить в базу командой:
-```zsh
-docker-compose exec web python manage.py loaddata fixtures.json
-```
-Чтобы сделать бэкап своих данных, нужно воспользоваться командой:
-```zsh
-docker-compose exec web python manage.py dumpdata > fixtures.json
-```
-
 ## Остановка и удаление
 ```zsh
 docker-compose down
