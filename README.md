@@ -1,4 +1,7 @@
 # Учебный проект: запуск docker-compose
+
+[![Sprint 16 project](https://github.com/Parygin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)](https://github.com/Parygin/yamdb_final/actions/workflows/yamdb_workflow.yml)
+
 Это учебный проект. Задача — научиться создавать и запускать проект в Docker.
 Приложение разворачивается в трёх контейнерах: (а) nginx, (б) web, (в) postgres.
 
