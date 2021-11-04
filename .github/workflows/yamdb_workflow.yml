@@ -68,6 +68,7 @@ jobs:
             sudo docker pull ${{ secrets.DOCKER_USERNAME }}/yamdb_final:latest
             sudo docker-compose stop
             sudo docker-compose rm web
+            sudo docker-compose rm nginx
             touch .env
             echo DEBUG=False >> .env
             echo SECRET_KEY=${{ secrets.SECRET_KEY }} >> .env
