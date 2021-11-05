@@ -1,4 +1,4 @@
-# Учебный проект: запуск docker-compose
+# Учебный проект: CI/CD
 
 [![Sprint 16 project](https://github.com/Parygin/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)](https://github.com/Parygin/yamdb_final/actions/workflows/yamdb_workflow.yml)
 
@@ -7,5 +7,6 @@
  
 Проект доступен по адресу: `http://178.154.240.68/admin/`
 
-Stack: Python3.9, Django, Django REST framework, Docker, PostgresSQL 
+Stack: Python3.9, Django, Django REST framework, Docker, PostgresSQL  
+  
 MIT
